@@ -1,16 +1,16 @@
 if (Posts.find().count() === 0){
     Posts.insert({
-        title: "Introducing Telescope",
-        url: "http://sachagreif.com/introducing-telescope"
-    });
-
-    Posts.insert({
         title: "Meteor",
         url: "http://meteor.com"
     });
 
     Posts.insert({
         title: "Meteor Forums",
-        url: "http://forum.meteor.com"
+        url: "http://forums.meteor.com"
+    });
+
+    Posts.insert({
+        title: "Meteor Documentation",
+        url: "http://docs.meteor.com"
     });
 }
